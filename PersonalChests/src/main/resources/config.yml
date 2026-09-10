@@ -1,0 +1,52 @@
+# PersonalChests - coslant
+# Renkler icin & kullanabilirsin. %page% = sayfa, %total% = toplam, %owner% = sahip
+
+total-chests: 10
+
+rows: 6
+
+titles:
+  player: "&8Sandik &7#%page%"
+  admin: "&c[Admin] &8%owner% &7#%page%"
+
+sound:
+  enabled: true
+  open: "CHEST_OPEN"
+  page-turn: "CLICK"
+
+messages:
+  prefix: ""
+  no-permission: "&cBunun icin yetkin yok."
+  players-only: "&cBu komutu sadece oyuncular kullanabilir."
+  opened: "&a%page%. sandik acildi."
+  invalid-page: "&cGecerli bir sayfa numarasi yaz."
+  out-of-range: "&cSandik numarasi 1 ile %total% arasinda olmali."
+  player-not-found: "&cOyuncu bulunamadi."
+  admin-opened: "&e%owner% oyuncusunun %page%. sandigi acildi."
+  reloaded: "&aConfig yeniden yuklendi."
+
+items:
+  previous:
+    material: "ARROW"
+    name: "&aOnceki Sayfa"
+    lore:
+      - "&7Bir onceki sandiga don"
+  next:
+    material: "ARROW"
+    name: "&aSonraki Sayfa"
+    lore:
+      - "&7Bir sonraki sandiga gec"
+  info:
+    material: "PAPER"
+    name: "&6Sandik &7#%page%"
+    lore:
+      - "&7Toplam &f%total% &7sandik"
+      - "&7Sol alttan ve sag alttan gezinebilirsin"
+  close:
+    material: "BARRIER"
+    name: "&cKapat"
+    lore: []
+  filler:
+    material: "GLASS_PANE"
+    name: " "
+    lore: []
